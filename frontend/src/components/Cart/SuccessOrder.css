@@ -1,0 +1,49 @@
+.orderSuccess {
+    margin: auto;
+    text-align: center;
+    padding: 10vmax;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .orderSuccess > svg {
+    font-size: 7vmax;
+    color: rgb(2, 255, 40);
+  }
+  .orderSuccess > p {
+    font-size: 2vmax;
+    color: blueviolet;
+  }
+  .orderSuccess > a {
+    background-color: #333;
+    color: rgb(253, 224, 2);
+    border: none;
+    padding: 1vmax 3vmax;
+    cursor: pointer;
+    font: 400 1vmax "Roboto";
+    text-decoration: none;
+    margin: 2vmax;
+    border: 2px solid rgb(1, 255, 73);
+  }
+	.MuiTypography-p{
+   background-color: #333 ;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .orderSuccess > a {
+      padding: 3vw 6vw;
+      font: 400 4vw "Roboto";
+      margin: 2vmax;
+    }
+  
+    .orderSuccess > svg {
+      font-size: 20vw;
+    }
+    .orderSuccess > p {
+      margin: 2vmax;
+      font-size: 5vw;
+    }
+  }
