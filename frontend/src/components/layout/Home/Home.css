@@ -257,10 +257,10 @@ top: 68%;
  
   .wrapper .static-txt {
       color: #fff;
-      font-size: 24px;
+      font-size: 25px;
       font-weight: 900;
       /* margin-right: 0px; */
-      margin-left: .4rem;
+      margin-left: .3rem;
   }
   .static-txt{
     width: 200%;

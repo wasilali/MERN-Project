@@ -78,7 +78,7 @@ useEffect(()=>{
         dispatch(clearErrors())
     }
     if(isAuthenticated===true){
-        nav("/")
+        nav("/account")
     }
 },[dispatch,alert,error,isAuthenticated])
     const switchTabs=(e,tab)=>{
