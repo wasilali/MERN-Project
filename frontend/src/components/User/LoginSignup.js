@@ -52,6 +52,7 @@ const {error,loading,isAuthenticated}=useSelector(state=>state.user)
         dispatch(register(myForm))
         if(isAuthenticated===true){
             nav("/")
+            
             }
     }
 const registerDataChange=(e)=>{
