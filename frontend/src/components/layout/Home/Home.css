@@ -257,10 +257,10 @@ top: 68%;
  
   .wrapper .static-txt {
       color: #fff;
-      font-size: 28px;
+      font-size: 25px;
       font-weight: 900;
       /* margin-right: 0px; */
-      margin-left: -1.1rem;
+      margin-left: .3rem;
   }
   .static-txt{
     width: 200%;
@@ -291,7 +291,7 @@ top: 68%;
 
   #scroll{
     position: absolute;
-    top: 58%;
+    top: 62%;
     left: 52%;
     transform: translate(-50%,-50%);
     padding: 15px 30px;
@@ -311,4 +311,11 @@ top: 68%;
     background-color: #333;
     height: 100%;
     }
+    .dynamic-txts li span {
+      position: relative;
+      margin: 5px 0;
+      line-height: 90px;
+      right: 30px;
+      margin-left: -0.5rem;
+  }
 }
